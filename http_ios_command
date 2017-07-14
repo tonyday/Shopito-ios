@@ -1,0 +1,1 @@
+plutil -insert NSAppTransportSecurity -json '{"NSExceptionDomains":{"localhost":{"NSExceptionAllowsInsecureHTTPLoads":true}}}' Shopito/Info.plist

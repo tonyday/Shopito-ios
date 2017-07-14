@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FE82EDC640938A835F9D17EB4E46E79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */; };
+		14D4826D7EC1BB34ADEB5E373C8E30C2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDB8272AF7DA52CED82F42852514AD3 /* WebKit.framework */; };
+		2B284E95FDAFCB64639E79C6F70B644B /* ScriptMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831BC24325654C3C21896D26AC38E537 /* ScriptMessage.swift */; };
+		332C3FB2EAD45C94B1E7BAA6504658E6 /* Visit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5080EE62127E017DF4DBE560921938D9 /* Visit.swift */; };
+		4665B3AA74FBA0DDA19998ED4A911E62 /* Pods-Shopito-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED97643C8009A6FCC8C5501043076D /* Pods-Shopito-dummy.m */; };
+		620EBA36C22E4775D79ECF2E24CC6E0E /* Pods-ShopitoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F39C015B6875C1636918E42BF90B16F /* Pods-ShopitoTests-dummy.m */; };
+		927EA786EA86CD85B37217BF67BEA7B4 /* Visitable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8D75A6BB7D33AE93EE8490558BDBAD /* Visitable.swift */; };
+		9A30A10ED8086657362789AD8C12B44A /* WebView.js in Resources */ = {isa = PBXBuildFile; fileRef = F73696591DF4A0121FE93882475CAC1F /* WebView.js */; };
+		9E0EC60700617E06C8A9ECB217676D8E /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777FB83280F5CB117DF5A45C46047A18 /* Error.swift */; };
+		A166EE7284BB411B8BAF225E298B1DE5 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD5A3FAE242A1F92FD51DE6B101BB9 /* Action.swift */; };
+		C13671D63AE5626085EC946A145A762C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */; };
+		C35F9AFCD37020CEC3AA82AAA77379B3 /* VisitableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B0B8CF5C10D813F32702A105B3606A /* VisitableView.swift */; };
+		C56D9FE03EE5688090257AD7FD31FAFB /* Pods-ShopitoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54FD52F987559D5C1479305B1F865CD3 /* Pods-ShopitoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB4AB376C77CAB58B2E488F14F6F70D0 /* VisitableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A359E20EB9CE17874163BF35AEDF6F32 /* VisitableViewController.swift */; };
+		D4C238FD1CCFC27E5A61FB27E98166F4 /* Turbolinks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5695AB8BB4D9A6CD230FD28BCF664E /* Turbolinks-dummy.m */; };
+		ED19DC4CB1C0F5F19B526E9D0ACB4094 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */; };
+		F2B70DDE67ED9C6E943437D427308BC3 /* Pods-Shopito-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D737AD79589DF41213B4E9AF220C066 /* Pods-Shopito-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5F8F98B6A71F53DEF328283EFF1A6E6 /* Turbolinks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0F2C18A3B59827CDFD59A71F30AB5F /* Turbolinks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA521B8C76D822DC8E13D9A155EC348B /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60D5126E6B1F326B3515FC02CDEA232 /* Session.swift */; };
+		FCE6CD1003C5CE4BEE2B133EEA1E0A0D /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3230582930099BCF195FBF9D37D19305 /* WebView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49B188831E2E9D276D99F2F6F13B34B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBE6E084A27667C501ECDF16E68A0DD6;
+			remoteInfo = Turbolinks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0739444C7DAE2748032D873296C4BAA6 /* Turbolinks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Turbolinks-prefix.pch"; sourceTree = "<group>"; };
+		1CFD5A3FAE242A1F92FD51DE6B101BB9 /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Action.swift; path = Turbolinks/Action.swift; sourceTree = "<group>"; };
+		1F39C015B6875C1636918E42BF90B16F /* Pods-ShopitoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShopitoTests-dummy.m"; sourceTree = "<group>"; };
+		2B5695AB8BB4D9A6CD230FD28BCF664E /* Turbolinks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Turbolinks-dummy.m"; sourceTree = "<group>"; };
+		3230582930099BCF195FBF9D37D19305 /* WebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebView.swift; path = Turbolinks/WebView.swift; sourceTree = "<group>"; };
+		35F1D0A05E451D7DE549C85AAC7B8F83 /* Pods-ShopitoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShopitoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4338A4BF0EA862868E420DFBBD8530A6 /* Turbolinks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Turbolinks.framework; path = Turbolinks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4417C472D70A5B56B1505587C94B67CF /* Pods-Shopito-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shopito-frameworks.sh"; sourceTree = "<group>"; };
+		4D737AD79589DF41213B4E9AF220C066 /* Pods-Shopito-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shopito-umbrella.h"; sourceTree = "<group>"; };
+		4E7CC46DCCB5E746FA9CFFFBCCF6DF5E /* Pods-Shopito-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Shopito-acknowledgements.plist"; sourceTree = "<group>"; };
+		5080EE62127E017DF4DBE560921938D9 /* Visit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Visit.swift; path = Turbolinks/Visit.swift; sourceTree = "<group>"; };
+		54FD52F987559D5C1479305B1F865CD3 /* Pods-ShopitoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShopitoTests-umbrella.h"; sourceTree = "<group>"; };
+		596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		64AF02F3C6339C5C14FFEA2B33A10A6D /* Pods-Shopito.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shopito.debug.xcconfig"; sourceTree = "<group>"; };
+		72C328A0D212DF1A0410F39B721AF085 /* Turbolinks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Turbolinks.xcconfig; sourceTree = "<group>"; };
+		773C37E50EE751B35F573D3EDA1B6F0B /* Pods-ShopitoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShopitoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		777FB83280F5CB117DF5A45C46047A18 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Turbolinks/Error.swift; sourceTree = "<group>"; };
+		80798DE3B4DA686B74813D4C03350024 /* Pods-Shopito-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shopito-resources.sh"; sourceTree = "<group>"; };
+		831BC24325654C3C21896D26AC38E537 /* ScriptMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScriptMessage.swift; path = Turbolinks/ScriptMessage.swift; sourceTree = "<group>"; };
+		8C7F386899EDEC631B1CFB179F103658 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9677D359A2F8035EB1E2EA289A8EFB7A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A359E20EB9CE17874163BF35AEDF6F32 /* VisitableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisitableViewController.swift; path = Turbolinks/VisitableViewController.swift; sourceTree = "<group>"; };
+		A6F35339C252A2BE4275521AF7C31574 /* Pods-ShopitoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShopitoTests-frameworks.sh"; sourceTree = "<group>"; };
+		ADB4C406DE98ABA40BF93FE2B79FEC71 /* Pods_ShopitoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ShopitoTests.framework; path = "Pods-ShopitoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1985983B0439462C754095376F1EDEC /* Pods-ShopitoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShopitoTests-resources.sh"; sourceTree = "<group>"; };
+		B60D5126E6B1F326B3515FC02CDEA232 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Turbolinks/Session.swift; sourceTree = "<group>"; };
+		C1B0B8CF5C10D813F32702A105B3606A /* VisitableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisitableView.swift; path = Turbolinks/VisitableView.swift; sourceTree = "<group>"; };
+		C4ED97643C8009A6FCC8C5501043076D /* Pods-Shopito-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shopito-dummy.m"; sourceTree = "<group>"; };
+		D1FC99737F94575AE67039D651E646B7 /* Pods-Shopito-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Shopito-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D2A721BC1E10FDB1A477F048A5727A44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5D2EC81F911D8CF017DABB20D94DF74 /* Pods-Shopito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shopito.release.xcconfig"; sourceTree = "<group>"; };
+		E5DE0AC7586F23A696158172FE1882E7 /* Pods-ShopitoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShopitoTests.release.xcconfig"; sourceTree = "<group>"; };
+		E6BD63308612F423726A74D80B0BAF67 /* Turbolinks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Turbolinks.modulemap; sourceTree = "<group>"; };
+		EA8D75A6BB7D33AE93EE8490558BDBAD /* Visitable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Visitable.swift; path = Turbolinks/Visitable.swift; sourceTree = "<group>"; };
+		EC0F2C18A3B59827CDFD59A71F30AB5F /* Turbolinks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Turbolinks-umbrella.h"; sourceTree = "<group>"; };
+		EDDB8272AF7DA52CED82F42852514AD3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		F13528EDAD05CBD95B1729ADA4CE4915 /* Pods_Shopito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Shopito.framework; path = "Pods-Shopito.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2BC21E933621328E1A2EBC8C1D1AAC9 /* Pods-Shopito.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Shopito.modulemap"; sourceTree = "<group>"; };
+		F73696591DF4A0121FE93882475CAC1F /* WebView.js */ = {isa = PBXFileReference; includeInIndex = 1; name = WebView.js; path = Turbolinks/WebView.js; sourceTree = "<group>"; };
+		FAAE2E26091955A5B91DD72C31575C80 /* Pods-ShopitoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShopitoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FBF1E6124413770E56622A153B9EF51D /* Pods-ShopitoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ShopitoTests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5753BDCFA97FBABEC33FD39BCC7DBF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED19DC4CB1C0F5F19B526E9D0ACB4094 /* Foundation.framework in Frameworks */,
+				14D4826D7EC1BB34ADEB5E373C8E30C2 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD45E758C6DF0CC35393405AA6555A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C13671D63AE5626085EC946A145A762C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F273F07EDDB55BF4E9D44534BF876898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FE82EDC640938A835F9D17EB4E46E79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10D6476BCB7B18A7814F78B07B631572 /* Turbolinks */ = {
+			isa = PBXGroup;
+			children = (
+				1CFD5A3FAE242A1F92FD51DE6B101BB9 /* Action.swift */,
+				777FB83280F5CB117DF5A45C46047A18 /* Error.swift */,
+				831BC24325654C3C21896D26AC38E537 /* ScriptMessage.swift */,
+				B60D5126E6B1F326B3515FC02CDEA232 /* Session.swift */,
+				5080EE62127E017DF4DBE560921938D9 /* Visit.swift */,
+				EA8D75A6BB7D33AE93EE8490558BDBAD /* Visitable.swift */,
+				C1B0B8CF5C10D813F32702A105B3606A /* VisitableView.swift */,
+				A359E20EB9CE17874163BF35AEDF6F32 /* VisitableViewController.swift */,
+				3230582930099BCF195FBF9D37D19305 /* WebView.swift */,
+				68A5CF8F3DEB5C912169F31DEC7A8B09 /* Resources */,
+				C5975DF54413356263EA4BF97B0D2CBE /* Support Files */,
+			);
+			name = Turbolinks;
+			path = Turbolinks;
+			sourceTree = "<group>";
+		};
+		3085BE1F0DC4EABE49C1E1AE3AFCC6C3 /* Pods-ShopitoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9677D359A2F8035EB1E2EA289A8EFB7A /* Info.plist */,
+				FBF1E6124413770E56622A153B9EF51D /* Pods-ShopitoTests.modulemap */,
+				FAAE2E26091955A5B91DD72C31575C80 /* Pods-ShopitoTests-acknowledgements.markdown */,
+				35F1D0A05E451D7DE549C85AAC7B8F83 /* Pods-ShopitoTests-acknowledgements.plist */,
+				1F39C015B6875C1636918E42BF90B16F /* Pods-ShopitoTests-dummy.m */,
+				A6F35339C252A2BE4275521AF7C31574 /* Pods-ShopitoTests-frameworks.sh */,
+				B1985983B0439462C754095376F1EDEC /* Pods-ShopitoTests-resources.sh */,
+				54FD52F987559D5C1479305B1F865CD3 /* Pods-ShopitoTests-umbrella.h */,
+				773C37E50EE751B35F573D3EDA1B6F0B /* Pods-ShopitoTests.debug.xcconfig */,
+				E5DE0AC7586F23A696158172FE1882E7 /* Pods-ShopitoTests.release.xcconfig */,
+			);
+			name = "Pods-ShopitoTests";
+			path = "Target Support Files/Pods-ShopitoTests";
+			sourceTree = "<group>";
+		};
+		3CFD69BBB642FACFC9D37E1F8BFD4DF1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				50F76317AC8ADA7DAB63BA5B1FC9FC2E /* Pods-Shopito */,
+				3085BE1F0DC4EABE49C1E1AE3AFCC6C3 /* Pods-ShopitoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				729C424472F1E074A2EF30A6BC5F7C43 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50F76317AC8ADA7DAB63BA5B1FC9FC2E /* Pods-Shopito */ = {
+			isa = PBXGroup;
+			children = (
+				8C7F386899EDEC631B1CFB179F103658 /* Info.plist */,
+				F2BC21E933621328E1A2EBC8C1D1AAC9 /* Pods-Shopito.modulemap */,
+				D1FC99737F94575AE67039D651E646B7 /* Pods-Shopito-acknowledgements.markdown */,
+				4E7CC46DCCB5E746FA9CFFFBCCF6DF5E /* Pods-Shopito-acknowledgements.plist */,
+				C4ED97643C8009A6FCC8C5501043076D /* Pods-Shopito-dummy.m */,
+				4417C472D70A5B56B1505587C94B67CF /* Pods-Shopito-frameworks.sh */,
+				80798DE3B4DA686B74813D4C03350024 /* Pods-Shopito-resources.sh */,
+				4D737AD79589DF41213B4E9AF220C066 /* Pods-Shopito-umbrella.h */,
+				64AF02F3C6339C5C14FFEA2B33A10A6D /* Pods-Shopito.debug.xcconfig */,
+				E5D2EC81F911D8CF017DABB20D94DF74 /* Pods-Shopito.release.xcconfig */,
+			);
+			name = "Pods-Shopito";
+			path = "Target Support Files/Pods-Shopito";
+			sourceTree = "<group>";
+		};
+		68A5CF8F3DEB5C912169F31DEC7A8B09 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F73696591DF4A0121FE93882475CAC1F /* WebView.js */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		729C424472F1E074A2EF30A6BC5F7C43 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */,
+				EDDB8272AF7DA52CED82F42852514AD3 /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		72E6AE1933166C0F56465FFCAF928DC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10D6476BCB7B18A7814F78B07B631572 /* Turbolinks */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				72E6AE1933166C0F56465FFCAF928DC2 /* Pods */,
+				9F51A742B148B52D4C5FBC4489D2B78C /* Products */,
+				3CFD69BBB642FACFC9D37E1F8BFD4DF1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9F51A742B148B52D4C5FBC4489D2B78C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F13528EDAD05CBD95B1729ADA4CE4915 /* Pods_Shopito.framework */,
+				ADB4C406DE98ABA40BF93FE2B79FEC71 /* Pods_ShopitoTests.framework */,
+				4338A4BF0EA862868E420DFBBD8530A6 /* Turbolinks.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5975DF54413356263EA4BF97B0D2CBE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2A721BC1E10FDB1A477F048A5727A44 /* Info.plist */,
+				E6BD63308612F423726A74D80B0BAF67 /* Turbolinks.modulemap */,
+				72C328A0D212DF1A0410F39B721AF085 /* Turbolinks.xcconfig */,
+				2B5695AB8BB4D9A6CD230FD28BCF664E /* Turbolinks-dummy.m */,
+				0739444C7DAE2748032D873296C4BAA6 /* Turbolinks-prefix.pch */,
+				EC0F2C18A3B59827CDFD59A71F30AB5F /* Turbolinks-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Turbolinks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		335B168918A5743981731FDC9E19DC7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F8F98B6A71F53DEF328283EFF1A6E6 /* Turbolinks-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9E274F79BF3B85907FD1BEB2737057 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56D9FE03EE5688090257AD7FD31FAFB /* Pods-ShopitoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA44AFE5948305FF6B715BF8AB734A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B70DDE67ED9C6E943437D427308BC3 /* Pods-Shopito-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0908B45EA732593D2D604C022F7E5D8B /* Pods-Shopito */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CBE9E79F72F4BC14B2E0A5FB88F51FD /* Build configuration list for PBXNativeTarget "Pods-Shopito" */;
+			buildPhases = (
+				707C23B07FDFF7C83DC30A4C45662979 /* Sources */,
+				DDD45E758C6DF0CC35393405AA6555A8 /* Frameworks */,
+				AAA44AFE5948305FF6B715BF8AB734A7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5303C936115801EB313A55800BFB08D6 /* PBXTargetDependency */,
+			);
+			name = "Pods-Shopito";
+			productName = "Pods-Shopito";
+			productReference = F13528EDAD05CBD95B1729ADA4CE4915 /* Pods_Shopito.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		125ADBFA02BF6909538D9F657A731AED /* Pods-ShopitoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD300D859EBD792B1CB4779A8B0A0922 /* Build configuration list for PBXNativeTarget "Pods-ShopitoTests" */;
+			buildPhases = (
+				5B1FEE25FC5E016E89F6D55D15243D4A /* Sources */,
+				F273F07EDDB55BF4E9D44534BF876898 /* Frameworks */,
+				5E9E274F79BF3B85907FD1BEB2737057 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ShopitoTests";
+			productName = "Pods-ShopitoTests";
+			productReference = ADB4C406DE98ABA40BF93FE2B79FEC71 /* Pods_ShopitoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EBE6E084A27667C501ECDF16E68A0DD6 /* Turbolinks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBB501959612F9290C4819FC5933E94 /* Build configuration list for PBXNativeTarget "Turbolinks" */;
+			buildPhases = (
+				5F0A12DD06CAF56F24EB97FBC519A49A /* Sources */,
+				A5753BDCFA97FBABEC33FD39BCC7DBF2 /* Frameworks */,
+				CEE4FB4FFCDB789123D27045C46EB472 /* Resources */,
+				335B168918A5743981731FDC9E19DC7D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Turbolinks;
+			productName = Turbolinks;
+			productReference = 4338A4BF0EA862868E420DFBBD8530A6 /* Turbolinks.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9F51A742B148B52D4C5FBC4489D2B78C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0908B45EA732593D2D604C022F7E5D8B /* Pods-Shopito */,
+				125ADBFA02BF6909538D9F657A731AED /* Pods-ShopitoTests */,
+				EBE6E084A27667C501ECDF16E68A0DD6 /* Turbolinks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE4FB4FFCDB789123D27045C46EB472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A30A10ED8086657362789AD8C12B44A /* WebView.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B1FEE25FC5E016E89F6D55D15243D4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620EBA36C22E4775D79ECF2E24CC6E0E /* Pods-ShopitoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F0A12DD06CAF56F24EB97FBC519A49A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A166EE7284BB411B8BAF225E298B1DE5 /* Action.swift in Sources */,
+				9E0EC60700617E06C8A9ECB217676D8E /* Error.swift in Sources */,
+				2B284E95FDAFCB64639E79C6F70B644B /* ScriptMessage.swift in Sources */,
+				FA521B8C76D822DC8E13D9A155EC348B /* Session.swift in Sources */,
+				D4C238FD1CCFC27E5A61FB27E98166F4 /* Turbolinks-dummy.m in Sources */,
+				332C3FB2EAD45C94B1E7BAA6504658E6 /* Visit.swift in Sources */,
+				927EA786EA86CD85B37217BF67BEA7B4 /* Visitable.swift in Sources */,
+				C35F9AFCD37020CEC3AA82AAA77379B3 /* VisitableView.swift in Sources */,
+				CB4AB376C77CAB58B2E488F14F6F70D0 /* VisitableViewController.swift in Sources */,
+				FCE6CD1003C5CE4BEE2B133EEA1E0A0D /* WebView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707C23B07FDFF7C83DC30A4C45662979 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4665B3AA74FBA0DDA19998ED4A911E62 /* Pods-Shopito-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5303C936115801EB313A55800BFB08D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Turbolinks;
+			target = EBE6E084A27667C501ECDF16E68A0DD6 /* Turbolinks */;
+			targetProxy = 49B188831E2E9D276D99F2F6F13B34B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		27483EB30EE7B7747CB2BCE2DEE85AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5DE0AC7586F23A696158172FE1882E7 /* Pods-ShopitoTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ShopitoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShopitoTests/Pods-ShopitoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ShopitoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A503112ADCF5896EF7DEE45C03B68F03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5D2EC81F911D8CF017DABB20D94DF74 /* Pods-Shopito.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Shopito/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Shopito/Pods-Shopito.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Shopito;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B77CCE302EC8CB0EF2624CA472B81862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64AF02F3C6339C5C14FFEA2B33A10A6D /* Pods-Shopito.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Shopito/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Shopito/Pods-Shopito.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Shopito;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C820EE8E167E42C3DD22C8FA66F0B520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72C328A0D212DF1A0410F39B721AF085 /* Turbolinks.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Turbolinks/Turbolinks-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Turbolinks/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Turbolinks/Turbolinks.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Turbolinks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D2A76E27E93E3206535DE2779B97130B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 773C37E50EE751B35F573D3EDA1B6F0B /* Pods-ShopitoTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ShopitoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShopitoTests/Pods-ShopitoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ShopitoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC6B4CAC0095ABB3451971CE2C318658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72C328A0D212DF1A0410F39B721AF085 /* Turbolinks.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Turbolinks/Turbolinks-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Turbolinks/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Turbolinks/Turbolinks.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Turbolinks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CBE9E79F72F4BC14B2E0A5FB88F51FD /* Build configuration list for PBXNativeTarget "Pods-Shopito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B77CCE302EC8CB0EF2624CA472B81862 /* Debug */,
+				A503112ADCF5896EF7DEE45C03B68F03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD300D859EBD792B1CB4779A8B0A0922 /* Build configuration list for PBXNativeTarget "Pods-ShopitoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A76E27E93E3206535DE2779B97130B /* Debug */,
+				27483EB30EE7B7747CB2BCE2DEE85AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDBB501959612F9290C4819FC5933E94 /* Build configuration list for PBXNativeTarget "Turbolinks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C820EE8E167E42C3DD22C8FA66F0B520 /* Debug */,
+				EC6B4CAC0095ABB3451971CE2C318658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

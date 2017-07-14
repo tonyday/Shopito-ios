@@ -1,0 +1,6 @@
+framework module Pods_ShopitoTests {
+  umbrella header "Pods-ShopitoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
